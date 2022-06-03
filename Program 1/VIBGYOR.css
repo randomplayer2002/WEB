@@ -1,0 +1,41 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+
+td{
+    height: 600px;
+    width: 150px;
+    border: 6px solid whitesmoke;
+}
+
+#one{
+    background-color:#9400D3;
+}
+
+#two{
+    background-color:#4B0082;
+}
+
+#three{
+    background-color:#0000FF;
+}
+
+#four{
+    background-color:#00FF00;
+}
+
+#five{
+    background-color:#FFFF00;
+}
+
+#six{
+    background-color:#FF7F00;
+}
+
+#seven{
+    background-color:#FF0000;
+}
