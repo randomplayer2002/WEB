@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lines,Words,Characters</title>
+ <style>
+   p{
+     font-size: 30px;
+     font-family: cursive;
+     color: brown;
+   }
+ </style>
+  <script language="javascript">
+  function wcount()
+  {
+    var str=document.forms["frm1"].inputstring.value;
+    var lines=str.split("\n").length;
+    document.forms["frm1"].linecount.value=lines;
+    document.forms["frm1"].wordcount.value=str.split(/\s/).length;
+    document.forms["frm1"].charactercount.value=str.length;
+  }
+  </script>
+</head>
+<body>
+  <form name="frm1">
+    <center><p>Enter the lines of text </p>
+      <br>
+      <textarea name="inputstring" rows="5" cols="50"></textarea><br><br>
+      <input type="button" name="count" value="COUNT" onclick="wcount()">
+      </input><br><br>
+      Number of lines:
+      <input type="text" name="linecount" value=""><br><br>
+      Number of words:
+      <input type="text" name="wordcount" value=""><br><br>
+      Number of character:
+      <input type="text" name="charactercount" value=""><br><br>
+  </form>
+</body>
+</html>
