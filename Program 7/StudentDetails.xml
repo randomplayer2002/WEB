@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="student.css"?>
+
+<VTU>
+<STUDENT>
+    <USN>4VV20CS008</USN>
+    <NAME>AMITH.A</NAME>
+    <COLLEGE>Vidyavardhaka College of Engineering</COLLEGE>
+    <BRANCH>Computer Science and Engineering</BRANCH>
+    <YEAR>2020</YEAR>
+    <EMAILID>amith@gmail.com</EMAILID>
+</STUDENT>
+<STUDENT>
+    <USN>4VV20CS000</USN>
+    <NAME>RAM</NAME>
+    <COLLEGE>Vidyavardhaka College of Engineering</COLLEGE>
+    <BRANCH>Computer Science and Engineering</BRANCH>
+    <YEAR>2020</YEAR>
+    <EMAILID>captainram@gmail.com</EMAILID>
+</STUDENT>
+<STUDENT>
+    <USN>4VV20CS111</USN>
+    <NAME>RAJGOPAL</NAME>
+    <COLLEGE>Vigneshwara College of Science and Engineering</COLLEGE>
+    <BRANCH>Computer Science and Engineering</BRANCH>
+    <YEAR>2020</YEAR>
+    <EMAILID>rajgopal07@gmail.com</EMAILID>
+</STUDENT>
+</VTU>
