@@ -8,7 +8,7 @@
       {
         var num = document.forms["frm1"].num.value;
         var nums = num.split(',');
-        var asc_sort = nums.sort();
+        var asc_sort = nums.sort(function(a,b){return a-b});
         var reversed_sort=asc_sort.reverse();
         document.forms["frm1"].desc.value=reversed_sort;
       }
