@@ -1,1 +1,1 @@
-[g](https://raw.githubusercontent.com/randomplayer2002/WEB/main/Program%201/Chess.html)
+[g](https://github.com/randomplayer2002/WEB/blob/main/Program%201/Chess.html)
