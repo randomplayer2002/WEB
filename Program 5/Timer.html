@@ -2,7 +2,7 @@
 <html>
 <head>
   <style>
-    P{
+    p{
       color:red;
       text-align:center;
       font-size:60px;
@@ -11,10 +11,10 @@
     </style>
     </head>
     <body>
-      <p id="demo"></p>
+      <p id="demo" style="font-family: cursive"></p>
       <script>
-        var countDownDate=new Date("september 3, 2022 09:50:00").getTime();
-        var x=setInterval(function(){
+         var countDownDate=new Date("september 3, 2022 09:50:00").getTime();
+         var x=setInterval(function(){
           var now=new Date().getTime();
           var distance=countDownDate-now;
           var days=Math.floor(distance/(1000*60*60*24));
@@ -27,6 +27,6 @@
             document.getElementById("demo").innerHTML="EXPIRED";
           }
         },1000);
-        </script>
-        </body>
-        </html>
+       </script>
+     </body>
+</html>
