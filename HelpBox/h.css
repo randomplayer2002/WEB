@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&family=Smooch&display=swap');
+*{
+  background-color: maroon;
+  color:white;
+  margin:auto;
+}
+#one{
+  background-color: rgb(63, 243, 18);
+  font-size: 25px;
+  font-family:Cambria, Cochin, Georgia,'Times New Roman', serif;
+}
+
+h1{
+  text-align:center;
+  font-size: 75px;
+  color: white;
+  font-family: 'Rubik Moonrocks', cursive;
+  background-color: black
+}
+.myDIV{
+  margin:auto;
+}
+
+.hide {
+display: none;
+}
+
+.myDIV:hover + .hide {
+
+display: block;
+color: orange;
+text-align: center;
+border: 2px solid white;
+font-family:cursive;
+}
